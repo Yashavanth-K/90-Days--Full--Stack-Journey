@@ -1,0 +1,46 @@
+git@github.com:Yashavanth-K/90-Days--Full--Stack-Journey.git
+git@github.com:Yashavanth-K/90-Days--Full--Stack-Journey.git
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> About Me</title>
+  </head>
+  <body>
+    <h1>About Me</h1>
+    <hr>
+    <p> My name is <b>K Yashawanth</b>. I was born on <u>january 7th 2007</u> in Gangavathi. My Father name is <strong>K Kotresh</strong> and My Mother name is <strong>K Sarasawathi</strong>. I am currently in Hirejantkal Gangavathi Koppal district.</p>
+    
+     <p>  I completed My SSLC at <u>Hirejantkal Government School</u> in gangavathi and my Pre-Graduation was completed at<u> Boys PU college</u> in Gangavathi. I am currently studying BCA  in <u>SKNG college Gangavathi</u>as a 2nd year student.</p>
+     
+     <p> I want to learn Completely  Full Stack of developer skills and also i want learn all industriall high demanding skills like Devops,Ai,Data science and <del>cloud engineer</del> etc,.</p>
+      <h2>My daily Routine</h2>
+      <ol>
+      <li>Wake up early morning 5A.M.</li>
+      <li>Doing Workout 30 min.</li>
+      <li>After workout I ate some meals.</li>
+      <li>After i go to bath</li>
+      <li>Praying God</li>
+      <li>And then play the chess</li>
+      <li>Then I ate my morning food</li>
+      <li>After,I complete my daily task by learning fullstack of developer</li>
+      <li>My day was ended with by learning happily and more joyfully</li>
+    </ol>
+    <h2> My hobbies like </h2>
+    <ul>
+      <li>Dancing</li>
+      <li>Singing</li>
+      <li>Learning new somthing</li>
+    </ul>
+    
+    <mark>Chemical formula for Water :</mark> 
+    <p>Water = H<sub>2</sub>O </p>
+    
+    <mark>Maths formula :</mark>
+    <p>(a+b)<sup>2</sup>=a<sup>2</sup>+ b<sup>2</sup>+2ab </p>
+    <h3> Favorite quote's are :</h3>
+    <p><em>Tomorow's wins come to today's effort</em> </p>
+    <p> <em>Small consistent steps every day lead to big success.</em></p>
+        <hr>
+    <h6>Created by Yashavanth.</h6>
+  </body>
+</html>
