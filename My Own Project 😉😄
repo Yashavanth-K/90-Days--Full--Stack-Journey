@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My own project</title>
+  </head>
+  <body>
+    <h1>My own project</h1>
+    <hr>
+    <p> I am creating this project without any information   doing this for Practice. I am showing my own knowledge on here.</p>
+     <h2><b>Study Plan and Goals</b></h2>
+      <h3>Goals</h3>
+     <ol>
+       <li>Become an Elite Full-Stack Developer.</li>
+       <li>Crack NIMCET.</li>
+       <li>Score a High CGPA in BCA.</li>
+     </ol>
+    <h2>Daily Holiday Timetable (Until Aug 10)</h1>
+    <table border="1">
+      <tr>
+        <th>Timing</th>
+        <th>Subject</th>
+      </tr>
+     <tr>
+       <td>6:00-7:00 AM </td> 
+       <td>NIMCET Mathematics</td> 
+       </tr>
+       <tr>
+         <td>7:00-7:30 AM</td>
+         <td>Logical Reasoning</td>
+       </tr>
+       <tr>
+         <td>8:00-10:00 AM </td>
+         <td>Full-Stack Devleopment</td>
+       </tr>
+       <tr>
+         <td>10:00-10:30 AM</td>
+         <td>Coding Practice</td>
+       </tr>
+       <tr>
+         <td>2:00-3:00 PM </td>
+         <td>English</td>
+       </tr>
+       <tr>
+         <td>3:00-4:00 PM</td>
+         <td>Computer Awareness</td>
+       </tr>
+       <tr>
+         <td>7:00-8:00 PM </td>
+         <td>Revision</td>
+       </tr>
+       <tr>
+         <td>8:00-8:30 PM </td>
+         <td>Math/Reasoning Practice</td>
+       </tr>
+       <tr>
+         <td>9:00 PM</td>
+         <td>Sleep</td>
+       </tr>
+    </table>
+    <p><b>Daily Reminder:</b>Small consistent steps every day lead to big success.</p>
+        <hr>
+    <footer> 
+    <p><strong><small>Created by yashu(•_•)</small></strong></p>
+    </footer>
+  </body>
+</html>
