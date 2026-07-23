@@ -1,0 +1,22 @@
+body{
+  background-color: aqua;
+}
+h1{
+  color: red;
+}
+h2{
+  color: brown;
+}
+h3{
+  color: blue;
+}
+p{
+  color: gray;
+}
+button:hover{
+  background-color: blue;
+}
+button{
+  color: red;
+  background-color: yellow;
+}
