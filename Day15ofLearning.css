@@ -1,0 +1,39 @@
+body{
+  background-color: yellow;
+  margin: 20px;
+  padding: 32px;
+}
+header {
+  background-color: white ;
+  padding: 15px;
+ border-radius: 50px ;
+}
+
+h1{
+  color: red;
+  text-align: center;
+}
+h1:hover{
+  color: crimson;
+}
+
+h2{
+  color: blue;
+}
+.dream{
+  color: #dc10c4;
+}
+
+ol{
+  color:#9d09d3 ;
+  line-height: 2;
+}
+
+
+p{
+  color:#067209 ;
+}
+
+footer{
+  text-align: center;
+}
