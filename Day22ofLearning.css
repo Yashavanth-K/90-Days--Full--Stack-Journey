@@ -1,0 +1,46 @@
+body{
+  background: linear-gradient(to right , #ea3737 , #5090b3 );
+}
+.cards{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.photo{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color:#9c9c9c;
+  background-size: 100%;
+  line-height: 100px;
+  border-radius: 100px;
+  top: 20px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.card{
+  border: 2px solid ;
+  border-radius: 4px;
+  box-shadow: 2px 5px ;
+  padding: 6px;
+  background: linear-gradient(to right , #85c8e6 , #57e374);
+}
+
+button{
+  position: relative;
+  background: linear-gradient(to right , #e84ad9 , #49c3ff);
+  font-size: 15px;
+  border: 1px;
+  border-radius: 20px;
+}
+header{
+  color: blue;
+  text-align: center;
+  background: white;
+}
+h2{
+  color: red;
+  }
+
