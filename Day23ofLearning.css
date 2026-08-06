@@ -1,0 +1,43 @@
+body{
+  background:linear-gradient(to right , #eb8d74 , #f9eb9d);
+}
+header{
+  color: white;
+  text-align: center;
+  background-color:#f23acb ;
+}
+
+.quote{
+  color:#0c7818;
+  font-weight: bold;
+}
+
+.cards{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  background: linear-gradient(to right , aqua ,#f5cd28);
+  border: 1px solid #bf12c8;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  width: 220px;
+}
+.card:hover{
+  transform: translateY(-5px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+h2{
+  color:red;
+}
+
+p{
+  color:#1610cc ;
+  }
+  
