@@ -1,0 +1,66 @@
+body{
+  background: linear-gradient(to right , #f1f6f9 ,#78ed75);
+}
+h1{
+  color: white;
+  background-color:#232ec3 ;
+  text-align: center;
+}
+
+.card {
+  background: linear-gradient(to right, #58ceee, #cc07bd);
+  padding: 20px;
+  border: 2px solid #222;
+  border-radius: 12px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  min-height: 200px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.photo{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color:#1273b0;
+  background-size: 100%;
+  line-height: 100px;
+  border-radius: 100px;
+  top: 20px;
+  font-size: 70px;
+  text-align: center;
+}
+
+button{
+  border: 1px;
+  border-radius: 4px;
+  background: linear-gradient(to right ,#f12a2a , #fad925 );
+  font-size:15px;
+  text-align: center;
+}
+
+.name{
+  color:#ffffff ;
+}
+
+h2{
+  color: red ;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 700px) {
+  .dashboard {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
