@@ -1,0 +1,131 @@
+body{
+  background: linear-gradient(to right ,#b1e3ed ,#f17ada);
+  background-repeat: no-repeat;
+  background: cover;
+}
+header{
+  text-align: center;
+  background-color: #1331b3;
+  background-repeat: no-repeat;
+  background-position-y: 50px;
+  background-size: 50px;
+  border: 1px;
+  border-radius: 15px;
+}
+.title{
+  position: relative;
+  color: white;
+  bottom: 10px;
+  }
+h1{
+  color: red;
+  position: sticky;
+}
+
+a{
+  color: blue;
+}
+ 
+ .navbar {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    background-size: 100%;
+    padding: 15px;
+    z-index: 100;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+} 
+
+
+.image{
+  position: relative;
+   width:400px;
+   
+}
+.image img{
+  position: relative;
+  width: 500px;
+  bottom: 50px;
+border: 1px solid #f17ada;
+border-radius: 8px;
+}
+h2{
+  position: relative;
+  top:8px;
+  background: linear-gradient(to left , #2b50f2 ,#ee10e2 );
+  background-size: 60%;
+  background-repeat: no-repeat;
+  border: 1px;
+  border-radius: 10px;
+  color: white;
+  z-index: 1;
+}
+.newlabel{
+  position: relative;
+  bottom:385px ;
+  left: 450px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  z-index: 2;
+}
+
+.Description{
+  position: relative;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 250%;
+  border: 1px;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 100%;
+  bottom: 80px;
+}
+b{
+  font-size: 20px;
+}
+.info{
+  font-size: 12px;
+  padding-right: 200px;
+}
+.explore{
+  position: relative;
+  bottom: 120px;
+  left: 160px;
+  background: linear-gradient(to right , gold ,#ecbf65);
+  border: 1px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.help{
+  position: relative;
+  bottom: 40px;
+  left:490px;
+  border: hidden;
+  background-color: #ef4de3;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.image-box{
+  position: relative;
+  width: 300px;
+}
+
+.image-box img{
+  position: absolute;
+  width: 150px;
+  bottom: 405px;
+  left: 175px;
+  border: 1px;
+  border-radius: 4px;
+  z-index: 4;
+   }
