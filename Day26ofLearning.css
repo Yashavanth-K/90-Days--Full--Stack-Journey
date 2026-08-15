@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 10px;
+  background: linear-gradient(to right, #1bcfac, #3ad53e);
+}
+
+header{
+  color: white;
+  background-color: blue;
+  text-align: center;
+}
+
+h2{
+  color: red;
+}
+
+p,li{
+  color: #9a0491;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer{
+  color: aqua;
+}
+
+
+ 
+ .navbar {
+    background-color: black;
+    background-size: 100%;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+} 
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 24px;
+  }
+}
+
