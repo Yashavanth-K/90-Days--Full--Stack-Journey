@@ -1,0 +1,75 @@
+body{
+  background: linear-gradient(to right ,#7ad9e3,#83e493);
+}
+
+header{
+  background-color:#0b1ccf;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.photo{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color:#1273b0;
+  background-size: 100%;
+  line-height: 100px;
+  border-radius: 100px;
+  top: 20px;
+  font-size: 70px;
+  text-align: center;
+}
+.card {
+  background:linear-gradient(to right ,#f2e32d,#c00c96 ) ;
+  width: 340px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 12px;
+  box-shadow: 2px 5px 10px;
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+h2{
+  color: #0b9014;
+}
+
+li{
+  color: blue;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button{
+  color: white;
+  font-size: 20px;
+  background-color:#f1245e ;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover{
+  background-color:#2436f1 ;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+header{
+  animation: slideIn 2s ease;
+}
