@@ -1,0 +1,30 @@
+body{
+  background: linear-gradient(to right ,#59d0d9 ,#6ae066 );
+}
+
+.card{
+  background-color: yellow;
+  border: 2px dashed white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 15px;
+  transition: 0.5s;
+}
+.photo{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color:#1273b0;
+  background-size: 100%;
+  line-height: 100px;
+  border-radius: 100px;
+  top: 20px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.card:hover{
+  transform: translateY(-20px) scale(1.05) rotate(3deg) skewX(2deg);
+}
+
