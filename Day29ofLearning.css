@@ -1,0 +1,115 @@
+body{
+  background: linear-gradient(to right, #53ccd5 ,#fefb11);
+  background-size: cover;
+}
+header{
+  background-color:#3d78e8 ;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #d5e8fdfe ;
+  border-radius: 4px;
+}
+
+header h1{
+  margin: 0;
+  font-size: 28px;
+}
+
+h1::after{
+  content: " 🔥";
+}
+
+h2::before {
+  content: "★ ";
+}
+
+.photo{
+  position: relative;
+  background-color:#b617c1de;
+  width: 150px;
+  height: 150px;
+  border: 1px;
+  border-radius: 100px;
+  font-size: 70px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.card{
+  position: relative;
+  background-color:#f70ee1 ;
+  border: 1px dashed white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 300px;
+  padding: 8px;
+  line-height: 100%;
+  box-shadow: 2px 5px #3245e940;
+}
+
+button{
+  background: linear-gradient(to right,#1273b0 ,#3cdd43   );
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+
+h2{
+  color:#f4fd6cea ;
+}
+
+h3{
+  color: aqua;
+}
+
+p{
+  color: #242eebed;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:nth-child(2) {
+  text-decoration: underline;
+}
+
+label{
+  font-size: 20px;
+  color:#430fdc ;
+  font-weight:bold ;
+}
+
+input{
+  background-color:#ffffffd8 ;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+input:focus{
+  outline: none;
+  border-color: #1d4ed8;
+  box-shadow: 0 0 5px rgba(29, 78, 216, 0.3);
+}
+
+footer{
+  position: relative;
+  background-color:#3d78e8 ;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  top: 170px;
+}
