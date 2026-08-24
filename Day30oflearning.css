@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* =========================
+   MAIN SCENE
+========================= */
+
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  background: linear-gradient(
+    to bottom,
+    #4facfe,
+    #dff6ff
+  );
+}
+h1 {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  color: #f9147e;
+  text-shadow: 2px 2px 5px #ccc1fdf8;
+}
+
+
+
+/* =========================
+   SUN
+========================= */
+
+.sun {
+  position: absolute;
+
+  width: 80px;
+  height: 80px;
+
+  background: yellow;
+  border-radius: 50%;
+
+  top: 50px;
+  right: 80px;
+
+  box-shadow: 0 0 30px yellow;
+}
+
+
+/* =========================
+   CLOUD
+========================= */
+
+.cloud {
+  position: absolute;
+
+  width: 150px;
+  height: 50px;
+
+  background: white;
+  border-radius: 50px;
+
+  animation: cloudMove 15s linear infinite;
+}
+
+.cloud span {
+  position: absolute;
+
+  background: white;
+  border-radius: 50%;
+}
+
+.cloud span:nth-child(1) {
+  width: 60px;
+  height: 60px;
+
+  left: 20px;
+  bottom: 10px;
+}
+
+.cloud span:nth-child(2) {
+  width: 70px;
+  height: 70px;
+
+  left: 55px;
+  bottom: 5px;
+}
+
+.cloud span:nth-child(3) {
+  width: 50px;
+  height: 50px;
+
+  right: 15px;
+  bottom: 10px;
+}
+
+.cloud1 {
+  top: 100px;
+  left: 0;
+}
+
+.cloud2 {
+  top: 180px;
+  left: 400px;
+
+  animation-delay: 5s;
+}
+
+
+/* =========================
+   TREES
+========================= */
+
+.tree {
+  position: absolute;
+  bottom: 180px;
+}
+
+
+.leaves {
+font-size: 150px;
+}
+
+.tree1 {
+  left: 20px;
+}
+
+.tree2 {
+  right: 20px;
+}
+
+
+/* =========================
+   ROAD
+========================= */
+
+.road {
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+  height: 180px;
+
+  background: #333;
+}
+
+
+/* Road marking */
+
+.road-line {
+  position: absolute;
+
+  top: 80px;
+
+  width: 200%;
+  height: 10px;
+
+  background: repeating-linear-gradient(
+    to right,
+    white 0px,
+    white 80px,
+    transparent 80px,
+    transparent 160px
+  );
+
+  animation: roadMove 1s linear infinite;
+}
+
+
+/* =========================
+   CAR
+========================= */
+
+.car {
+  position: absolute;
+
+  bottom: 70px;
+  left: -200px;
+
+  width: 180px;
+  height: 80px;
+
+  animation: drive 6s linear infinite;
+}
+
+
+/* Car body */
+
+.car-body {
+  position: relative;
+
+  width: 180px;
+  height: 55px;
+
+  background: red;
+
+  border-radius: 20px 20px 8px 8px;
+}
+
+
+/* Car roof */
+
+.car-body::before {
+  content: "";
+
+  position: absolute;
+
+  width: 100px;
+  height: 50px;
+
+  background: red;
+
+  left: 40px;
+  top: -35px;
+
+  border-radius: 50px 50px 0 0;
+}
+
+
+/* Windows */
+
+.window {
+  position: absolute;
+
+  width: 40px;
+  height: 25px;
+
+  background: lightblue;
+
+  top: -25px;
+
+  border: 2px solid black;
+}
+
+.window1 {
+  left: 50px;
+}
+
+.window2 {
+  left: 95px;
+}
+
+
+/* Wheels */
+
+.wheel {
+  position: absolute;
+
+  width: 40px;
+  height: 40px;
+
+  background: black;
+
+  border-radius: 50%;
+
+  bottom: -20px;
+
+  animation: wheelRotate 0.5s linear infinite;
+}
+
+.wheel1 {
+  left: 20px;
+}
+
+.wheel2 {
+  right: 20px;
+}
+
+.Finish{
+  position: relative;
+  text-align: right;
+  font-size: 70px;
+  top: 60px;
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+
+
+/* Car movement */
+
+@keyframes drive {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(100vw + 400px));
+  }
+
+}
+
+
+/* Road movement */
+
+@keyframes roadMove {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-160px);
+  }
+
+}
+
+
+/* Cloud movement */
+
+@keyframes cloudMove {
+
+  0% {
+    transform: translateX(100vw);
+  }
+
+  100% {
+    transform: translateX(-300px);
+  }
+
+}
+
+
+/* Wheel rotation */
+
+@keyframes wheelRotate {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
