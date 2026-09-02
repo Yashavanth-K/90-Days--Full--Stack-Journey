@@ -1,0 +1,72 @@
+body{
+background: linear-gradient(to right,#3d3bf8e9, #fa3aa7ef);
+}
+
+header{
+  text-align: center;
+  background-color:#fffffff8 ;
+  color: #531cf5f3;
+}
+
+.card1{
+  position: relative;
+  background-color:#f70ee1 ;
+  border: 1px dashed white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 300px;
+  padding: 8px;
+  line-height: 100%;
+  box-shadow: 2px 5px #3245e940;
+}
+
+.card2{
+  position: relative;
+  background-color:#3cf250 ;
+  border: 1px dashed white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 300px;
+  padding: 8px;
+  line-height: 100%;
+  box-shadow: 2px 5px #3245e940;
+}
+
+.card3{
+  position: relative;
+  background-color:#f35131 ;
+  border: 1px dashed white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 300px;
+  padding: 8px;
+  line-height: 100%;
+  box-shadow: 2px 5px #3245e940;
+}
+
+.card4{
+  position: relative;
+  background-color:#21c6f1 ;
+  border: 1px dashed white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 300px;
+  padding: 2px;
+  line-height: 100%;
+  box-shadow: 2px 5px #3245e940;
+}
+
+.card{
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover{
+  transition: 0.4s;
+  transform: translateY(-10px) scale(1.05);
+  transform: translateY(-10px) scale(1.0) rotate(360deg);
+}
