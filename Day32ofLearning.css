@@ -1,0 +1,81 @@
+body{
+  background: linear-gradient(to right ,#37c0e3 , #37e34a);
+}
+h1{
+  background-color:#0d1bdbd2 ;
+  color: white;
+  text-align: center;
+}
+
+
+.Interactive{
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
+}
+
+.Primary{
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  border: 1px groove;
+  border-radius: 4px;
+  box-shadow:2px 2px black;
+ text-align: center;
+ transition: 0.3s;
+}
+
+.Download{
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  border: 1px groove;
+  border-radius: 4px;
+  box-shadow:2px 2px black;
+ text-align: center;
+ transition: 0.3s;
+}
+
+.Delete{
+  background-color:yellow ;
+  color: black;
+  font-size: 30px;
+  border: 1px groove;
+  border-radius: 4px;
+  box-shadow:2px 2px black;
+ text-align: center;
+ transition: 0.3s;
+}
+
+.Gradient{
+  background:linear-gradient(to right,#f4f93d,#ea0cccd4 ) ;
+  color: white;
+  font-size: 30px;
+  border: 1px groove;
+  border-radius: 4px;
+  box-shadow:2px 2px black;
+ text-align: center;
+ transition: 0.3s;
+}
+
+.BUTTON{
+  background:linear-gradient(to right, aqua,#ea0cccd4 ) ;
+  color: white;
+  font-size: 30px;
+  border: 1px groove;
+  border-radius: 4px;
+  box-shadow:2px 2px black;
+ text-align: center;
+ transition: 0.3s;
+}
+
+button:hover{
+  background: linear-gradient(to right,#f72c4d,#2cf7e9);
+transition: 1.0s;
+transform: translateY(-10px) scale(1.03);
+}
+
+button:active{
+  transform: scale(0.95);
+}
+
