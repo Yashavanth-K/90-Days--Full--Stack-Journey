@@ -1,0 +1,13 @@
+body{
+  background: linear-gradient(to right,#68ddefd7,#3af247d7  );
+}
+
+h1{
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+h2{
+  color: red;
+}
