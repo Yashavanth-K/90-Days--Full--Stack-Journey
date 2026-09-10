@@ -1,0 +1,29 @@
+body{
+  background: linear-gradient(to right,aqua, #0a8cdfd7);
+}
+
+header{
+  position: relative;
+  color: black;
+  text-align: center;
+  top: 290px;
+  font-size: 25px;
+  color: #f72ed4;
+  -webkit-text-stroke: 1px #f9f341;
+}
+
+button{
+  position: relative;
+  top: 300px;
+  left: 80px;
+  border: 1px solid #41f951;
+  border-radius: 10px;
+  font-size: 40px;
+  color: white;
+  background: linear-gradient(to right,#edfa2a,#d514fb );
+  cursor: pointer;
+}
+
+button:hover{
+  background:linear-gradient(to right,#2dee3e,#fc5652 ); ;
+  }
