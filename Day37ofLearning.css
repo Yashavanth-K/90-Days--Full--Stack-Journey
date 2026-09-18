@@ -1,0 +1,17 @@
+body{
+  background: linear-gradient(to right, #eff0f0, #2fe5e5);
+}
+
+header{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 4px;
+}
+
+p{
+  font-size: 25px;
+  color: #e40896;
+  font-weight: bold;
+}
