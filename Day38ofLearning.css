@@ -1,0 +1,10 @@
+alert("Welcome to dev.skills. web page");
+
+let skill=["HTML" , "CSS" , "JavaScript" , "Python"];
+
+skill.push("Java");
+skill.push("Git");
+skill.pop();
+document.getElementById("sum").textContent = skill;
+
+document.getElementById("length").textContent = skill.length;
