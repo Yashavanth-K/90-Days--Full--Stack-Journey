@@ -1,0 +1,25 @@
+body{
+  background: linear-gradient(to right , #f658be ,#ffffff );
+   
+}
+
+header{
+  text-align: center;
+  color: white;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+
+p{
+  color:yellow ;
+  font-weight: bold;
+-webkit-text-stroke: 1px red;
+}
+
+footer{
+  color: white;
+  background-color: blue;
+  text-align: center;
+}
