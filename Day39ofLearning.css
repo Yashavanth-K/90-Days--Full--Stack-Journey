@@ -1,0 +1,41 @@
+body{
+  background: linear-gradient(to right, #56a3eeed, #3bc7e0ed);
+}
+header{
+  background-color: white;
+  color: blue;
+  text-align: center;
+  border: 1px solid black;
+}
+button{
+  position: relative;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color:#e03bb9;
+  font-family: Times New Roman;
+  font-size: 20px;
+  left: 180px;
+  top: 200px;
+  cursor: pointer;
+}
+
+p{
+  color: white;
+  font-size: 15px;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  font-style: italic;
+  -webkit-text-stroke:1px red;
+}
+
+footer{
+  position: relative;
+  color: white;
+  background-color:#0e34d8e9 ;
+  top: 450px;
+  text-align: center;
+  border: 1px;
+}
+
+
+
