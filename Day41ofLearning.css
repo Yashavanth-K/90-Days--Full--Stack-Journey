@@ -1,0 +1,43 @@
+body{
+  background: linear-gradient(to right,#58cfe4,#68e67b);
+}
+
+header{
+  background-color: blue;
+  color:yellow ;
+  text-align: center;
+  border: 1px solid ;
+  -webkit-text-stroke: 1px red;
+  font-size: 20px;
+}
+
+h2{
+  color:#e30657f8 ;
+}
+p{
+  color:white ;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Times New Roman;
+}
+
+button{
+  position: relative;
+  background:linear-gradient(to right,#f57cc5, #f8eb4b);
+  border: 1px solid ;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+   -webkit-text-stroke: 1px red;
+   top: 150px;
+   left: 200px;
+   cursor: pointer;
+   width: 200px;
+   text-align: center;
+}
+
+button:hover{
+  background: linear-gradient(to right,#e84237df,#f1f70a );
+}
