@@ -1,0 +1,31 @@
+body{
+  background: linear-gradient(to right, #4ba1f5ee,#71daf6ee);
+}
+
+header{
+  background-color: #f914c8;
+  color:yellow ;
+  -webkit-text-stroke: 1px blue;
+  text-align: center;
+  border: 1px solid ;
+}
+
+button{
+  border: 1px solid ;
+  border-radius: 4px;
+  background: linear-gradient(to right,#fd97e7,#a7f1a5);
+  color: red;
+  -webkit-text-stroke:1px white;
+  font-size: 25px;
+  font-family: Sans-Serif;
+  margin: 200px;
+  cursor: pointer;
+}
+
+p{
+  font-family: Times New Roman;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke:1px red;
+  }
