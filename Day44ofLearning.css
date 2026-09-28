@@ -1,0 +1,67 @@
+body{
+  background: linear-gradient(to right , #55c6f8 , #59f5b5);
+}
+
+header{
+  background-color: blue;
+  color: white;
+  border: 1px solid ;
+  font-family: Georgia;
+  text-align: center;
+  -webkit-text-stroke:1px #10e7fd
+}
+
+.Numbers{
+  display: flex;
+  gap: 100px;
+flex-wrap: wrap;
+}
+
+
+input{
+  position: relative;
+  background-color: #fffcf4;
+  color:#fa0fb5 ;
+  border: 1px solid  #b9d1fbee;
+  border-radius: 4px;
+  font-family: Times New Roman;
+  font-size: 25px;
+  width: 80px;
+}
+
+b{
+  color: black;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p{
+  font-family: Times New Roman;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke:1px #fffb04;
+}
+
+.Opertaors{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+flex-wrap: wrap;
+}
+
+
+button{
+  background: linear-gradient(to right,#f22df7,#ffffff );
+  border: 1px solid ;
+  border-radius: 4px;
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
