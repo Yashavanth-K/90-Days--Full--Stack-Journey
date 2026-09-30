@@ -1,0 +1,28 @@
+body{
+  background: linear-gradient(to right , #45cef7ea,#ffffffea);
+}
+
+header{
+  color: white;
+  background-color: blue;
+  border: 1px solid ;
+  text-align: center;
+  
+}
+
+textarea{
+  border: 1px solid black;
+  border-radius: 4px;
+  border-color: #ab0362;
+}
+
+
+p{
+  color: red;
+  font-family: Times New Roman;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  -webkit-text-stroke:1px #f4ff1aea;
+}
+
