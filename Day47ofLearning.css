@@ -1,0 +1,34 @@
+body{
+  background: linear-gradient(to right,#b269c9e7, #ffffff);
+}
+
+header{
+  background-color: blue;
+  color: white;
+  border: 1px solid ;
+  text-align: center;
+}
+
+
+label{
+  color:yellow;
+  font-size: 25px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  -webkit-text-stroke:1px red;
+}
+
+
+input{
+  border: 1px solid black ;
+  background-color: #f9f9f8;
+  border-radius: 4px;
+}
+
+p{
+  color:aqua ;
+  -webkit-text-stroke:1px red ;
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: bold;
+}
