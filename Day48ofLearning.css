@@ -1,0 +1,46 @@
+body{
+  background: linear-gradient(to right,#fb14aef3,#ffffff);
+}
+
+header{
+  background-color: blue;
+  color: white;
+  border: 1px solid ;
+  text-align: center;
+  -webkit-text-stroke:1px #3ad554;
+}
+
+.card{
+  position: relative;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+h2{
+  position: relative;
+  background-color:yellow ;
+  background-repeat: no-repeat;
+  font-family: Times New Roman;
+    -webkit-text-stroke:1px red;
+}
+
+input{
+  font-size: 20px;
+ font-weight: bold;
+}
+
+input:hover{
+  background-color:#f30014e7 ;
+  color: aqua;
+}
+
+
+p{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-text-stroke:1px #ff9f18e7;
+}
